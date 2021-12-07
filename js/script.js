@@ -51,7 +51,7 @@ firebase.initializeApp(config);
    console.log(err);
  });
 
-   db.collection(turma).doc('alinoNovo').set(
+   db.collection(turma).doc('alunoNovo').set(
     { 
        nome: 'Felipe',
        sobrenome: 'Araujo',
